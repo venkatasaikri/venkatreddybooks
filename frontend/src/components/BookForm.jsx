@@ -12,7 +12,7 @@ const BookForm = ({ refreshBooks }) => {
 
   const addBook = async () => {
     try {
-      await axios.post('http://localhost:5001/api/books', newBook);
+      await axios.post('https://books-backend-1-ubrl.onrender.com/api/books', newBook);
       refreshBooks();
       setNewBook({ title: '', author: '', price: '', description: '', image: '' });
     } catch (err) {

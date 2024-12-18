@@ -20,7 +20,7 @@ const App = () => {
 
   const fetchBooks = async () => {
     try {
-      const response = await axios.get('http://localhost:5001/api/books');
+      const response = await axios.get('https://books-backend-1-ubrl.onrender.com/api/books');
       setBooks(response.data);
     } catch (err) {
       console.error('Error fetching books:', err);
@@ -30,7 +30,7 @@ const App = () => {
   // Add a new book
   const addBook = async () => {
     try {
-      await axios.post('http://localhost:5001/api/books', newBook);
+      await axios.post('https://books-backend-1-ubrl.onrender.com/api/books', newBook);
       fetchBooks(); // Refresh the book list
       setNewBook({ title: '', author: '', price: '', description: '', image: '' }); // Reset form
     } catch (err) {

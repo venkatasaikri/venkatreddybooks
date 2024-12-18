@@ -15,7 +15,7 @@ const Home = () => {
           {/* Example static content for now */}
           <div className="featured-book">
             <img
-              src="https://via.placeholder.com/150"
+              src="https://images.booksense.com/images/569/575/9781635575569.jpg"
               alt="Book 1"
               className="featured-image"
             />
@@ -25,7 +25,7 @@ const Home = () => {
 
           <div className="featured-book">
             <img
-              src="https://via.placeholder.com/150"
+              src="https://images.squarespace-cdn.com/content/v1/622c31d9c2e34d609e410734/42525789-b6c9-4e60-80f9-dce379f364ea/029-2024-Book-Review-a-court-of-thorns-and-roses-series-acotar-sarah-j-maas-PT.jpg?format=500w"
               alt="Book 2"
               className="featured-image"
             />
